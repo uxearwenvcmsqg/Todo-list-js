@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(111deg, #4a00e0, #8e2de2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 880px;
+  height: 550px;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.container__form {
+  margin-top: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.form__input {
+  width: 500px;
+  font-size: 22px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.form-input__add {
+  width: 80px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #7030f0;
+  color: #fff;
+}
+
+.container__tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.container__tasks ul {
+  list-style-type: none;
+  padding: 0;
+	width: 500px;
+}
+
+.container__tasks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+	transition: all 0.2s ease-in;
+}
